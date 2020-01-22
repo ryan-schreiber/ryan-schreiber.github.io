@@ -17,12 +17,42 @@ body {
 
 a {
   text-decoration : none;
-  color : #101010;
+  color : rgb(0,0,150);
+  font-weight : 550;
 }
 
-a:hover {
-  font-weight : bolder;
-  color : blue;
+h2 {
+  width : 100%;
+  text-align : left;
+  font-size : 40px;
+}
+
+h3 {
+  width : 100%;
+  text-align : left;
+  font-size : 25px;
+}
+
+p {
+  width : 100%;
+  text-align : left;
+  font-size : 16px;
+}
+
+button:focus {
+    outline:none !important;
+}
+
+button:active {
+    outline:none !important;
+}
+
+button:selected {
+    outline:none !important;
+}
+
+button:{
+  cursor : pointer;
 }
 
 .header-div {
@@ -51,6 +81,7 @@ a:hover {
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) ,-3px -3px 5px 0px rgba(255,255,255,0.5);
   border-radius : 5px;
   margin-top : 20px;
+  text-align : left;
 }
 
 .event-card-cover-image {
@@ -93,7 +124,6 @@ a:hover {
   position : absolute;
   top : 0;
   left : 0;
-  display : flex;
 }
 
 
@@ -140,7 +170,6 @@ a:hover {
   position : absolute;
   top : 0;
   left : 0;
-  display : flex;
 }
 
 .event-card-cover-past::after {
