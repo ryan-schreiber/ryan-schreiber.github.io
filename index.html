@@ -4,6 +4,23 @@
     <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/alphabets-and-numbers/98/22-512.png">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  
+    <script>
+    
+    function onclick_southwest_china_cover() {
+      document.getElementById("southwest-china").style.display = "block";
+      document.getElementById("southwest-china-cover").style.display = "none";
+    }
+    
+    function onclick_southwest_china() {
+      document.getElementById("southwest-china-cover").style.display = "block";
+      document.getElementById("southwest-china").style.display = "none";
+    }
+    
+    
+    
+    </script>
+  
   </head>
   <body>
   
@@ -18,8 +35,10 @@
     <img class="map" alt="World Map" src="./images/world-map-1.jpg"> 
     
     
-    <div class="event-card">
+    <div style="position:relative;"> 
+      <button id="southwest-china" class="event-card-cover" onclick="onclick_southwest_china()">
     
+      <button id="southwest-china-cover" class="event-card" onclick="onclick_southwest_china_cover()" />
     
     
     <h3> Activity : <a href="https://thesavvysparrow.com/colored-rice-krispie-treats/"> Colored Rice Krispie (or Kix) Treats </a> </h3>
@@ -34,11 +53,12 @@
       where the women dress up and make brightly colored rice with food dye. They
       hide objects in them and give the balls of rice to men in their lives, and
       the objects inside indicate how they expect the men to respond to the gifts.
-    </p>
+    </p> 
     
     
     
     
+    </button> 
     </div>
     </div>
     
