@@ -45,6 +45,11 @@ a:hover {
   cursor : pointer;
 }
 
+.event-card-container {
+  position : relative;
+  height : 500px;
+}
+
 .event-card {
   background-color : white;
   margin-top : 20px;
@@ -52,7 +57,7 @@ a:hover {
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) ,-3px -3px 5px 0px rgba(255,255,255,0.5);
   border-radius : 5px;
   position : relative;
-  height : 500px;
+  height : 100%;
   display : none;
   padding : 10px 50px;
 }
@@ -74,7 +79,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: auto;
   margin-top : 20px;
-  height : 500px;
+  height : 100%;
   width : 100%;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) ,-3px -3px 5px 0px rgba(255,255,255,0.5);
   border-radius : 5px;
