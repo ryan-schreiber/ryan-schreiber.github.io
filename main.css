@@ -9,10 +9,51 @@ html {
   padding : 0px;
 }
 
+body {
+  padding : 0;
+  margin : 0;
+  text-decoration : none;
+}
+
+a {
+  text-decoration : none;
+  color : #101010;
+}
+
+a:hover {
+  font-weight : bolder;
+  color : blue;
+}
+
+.header-div {
+  display : fixed;
+  background-color : white;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+  padding : 20px 5%;
+}
+
+.body-div {
+  padding : 5%;
+}
+
 .map {
-  width : 95%;
-  border-radius : 10px;
+  width : 100%;
+  border-radius : 5px;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) ,-3px -3px 5px 0px rgba(255,255,255,0.5);
+  cursor : pointer;
+}
+
+.event-card {
+  background-color : black;
+  margin-top : 20px;
+  width : 100%;
+  display : flex;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5) ,-3px -3px 5px 0px rgba(255,255,255,0.5);
+  border-radius : 5px;
+}
+
+.event-card:focus {
+  background-color : white;
 }
 
 
