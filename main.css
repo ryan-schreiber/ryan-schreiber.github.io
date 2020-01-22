@@ -30,6 +30,8 @@ a:hover {
   background-color : white;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
   padding : 20px 5%;
+  font-size : 80px;
+  
 }
 
 .body-div {
