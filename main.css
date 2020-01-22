@@ -52,7 +52,7 @@ a:hover {
   border-radius : 5px;
 }
 
-.event-card:focus {
+.event-card:hover {
   background-color : white;
 }
 
