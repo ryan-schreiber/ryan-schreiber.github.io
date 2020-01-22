@@ -52,10 +52,23 @@ a:hover {
   position : relative;
   height : 500px;
   display : none;
+  padding : 10px 50px;
+}
+
+.event-card::after {
+  content : "";
+  color : white;
+  background-color : rgba(255,0,0,1);
+  height : 100%;
+  width : 3%;
+  border-radius : 5px 0px 0px 5px;
+  position : absolute;
+  top : 0;
+  left : 0; 
 }
 
 .event-card-cover {
-  background-color : black;
+  background-image : url(http://www.ecns.cn/hd/2019/04/18/ef306efde0554cab8f63bbb6ce7a9569.jpg);
   margin-top : 20px;
   height : 500px;
   width : 100%;
@@ -64,6 +77,31 @@ a:hover {
   position : absolute;
   top : 0;
   left : 0;
+  display : flex;
+}
+
+.event-card-cover > h1 {
+  font-size : 40px;
+  color : white;
+  width  : 100%;
+  height  : 100%;
+  background-color : rgba(0,0,0,0.4);
+  position : absolute;
+  top : -25px;
+  border-radius : 5px;
+  flex : 1;
+}
+
+.event-card-cover::after {
+  content : "";
+  color : white;
+  background-color : rgba(255,0,0,1);
+  height : 100%;
+  width : 3%;
+  border-radius : 5px 0px 0px 5px;
+  position : absolute;
+  top : 0;
+  left : 0; 
 }
 
 
