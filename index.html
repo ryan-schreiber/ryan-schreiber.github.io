@@ -13,6 +13,8 @@
       
       document.getElementById("germany").style.display = "none";
       document.getElementById("germany-cover").style.display = "block";
+      document.getElementById("peru").style.display = "none";
+      document.getElementById("peru-cover").style.display = "block";
     }
     
     function onclick_germany_cover() {
@@ -21,14 +23,18 @@
       
       document.getElementById("southwest-china").style.display = "none";
       document.getElementById("southwest-china-cover").style.display = "block";
+      document.getElementById("peru").style.display = "none";
+      document.getElementById("peru-cover").style.display = "block";
     }
     
-    function onclick_germany_cover() {
-      document.getElementById("germany").style.display = "block";
-      document.getElementById("germany-cover").style.display = "none";
+    function onclick_peru_cover() {
+      document.getElementById("peru").style.display = "block";
+      document.getElementById("peru-cover").style.display = "none";
       
       document.getElementById("southwest-china").style.display = "none";
       document.getElementById("southwest-china-cover").style.display = "block";
+      document.getElementById("germany").style.display = "none";
+      document.getElementById("germany-cover").style.display = "block";
     }
     
     </script>
@@ -42,7 +48,7 @@
     
     <div class="body-div">
     
-      <img class="map" alt="World Map" src="./images/world-map-4.jpg"> 
+      <img class="map" alt="World Map" src="./images/world-map-5.jpg"> 
       
       
       <div class="event-card-container"> 
@@ -67,10 +73,10 @@
       </div>
       
       <div class="event-card-container"> 
-        <button id="germany-cover" class="event-card-cover-current" onclick="onclick_germany_cover()">
+        <button id="germany-cover" class="event-card-cover-past" onclick="onclick_germany_cover()">
           <img class="event-card-cover-image" src="./images/germany-cover.jpg" />
           
-          <button id="germany" class="event-card-current" >
+          <button id="germany" class="event-card-past" >
             <h2><a href="http://places.singleplatform.com/lardo/menu?ref=google"> Lunch @ Lardo </a> </h3>            
             <h3> Location : <a href="https://www.google.com/maps/place/Lardo/@45.5170628,-122.6857791,14z/data=!4m8!1m2!2m1!1slardos+portland+oregon!3m4!1s0x0:0xbf8d79c2bad450cf!8m2!3d45.5121062!4d-122.652998"> Lardo (Hawthorne) </a></h3>
             <h3> Time : 11:30am </h3>
@@ -87,45 +93,24 @@
       </div>
       
       <div class="event-card-container"> 
-        <button id="germany-cover" class="event-card-cover-current" onclick="onclick_germany_cover()">
-          <img class="event-card-cover-image" src="./images/germany-cover.jpg" />
+        <button id="peru-cover" class="event-card-cover-current" onclick="onclick_peru_cover()">
+          <img class="event-card-cover-image" src="./images/peru-cover.jpg" />
           
-          <button id="germany" class="event-card-current" >
-            <h2><a href="http://places.singleplatform.com/lardo/menu?ref=google"> Lunch @ Lardo </a> </h3>            
-            <h3> Location : <a href="https://www.google.com/maps/place/Lardo/@45.5170628,-122.6857791,14z/data=!4m8!1m2!2m1!1slardos+portland+oregon!3m4!1s0x0:0xbf8d79c2bad450cf!8m2!3d45.5121062!4d-122.652998"> Lardo (Hawthorne) </a></h3>
-            <h3> Time : 11:30am </h3>
+          <button id="peru" class="event-card-current" >
+            <h2><a href="http://www.andinarestaurant.com/history/"> Dinner @ Andina </a> </h3>            
+            <h3> Location : <a href="https://www.google.com/maps?q=andina+portland&rlz=1C1GCEU_enUS820US821&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiJ5tTM3ZbnAhVMVd8KHUA5BV0Q_AUoAXoECAwQAw"> Andina Peruvian Restraunt </a></h3>
+            <h3> Time : 7:00pm </h3>
             <hr>
-            <h2> Germany </h2>
+            <h2> Peru </h2>
             <p>
-              In Germany, they have some of the normal Valentine's traditions like cards and flowers,
-              but they also have a rather strange one. German couples make cookies with
-              "<a href="https://germanculture.com.ua/german-holidays/st-valentines-day-in-germany/">lucky pigs</a>"
-              as a symbol of luck and romance.
+              In Peru, and in much of South America, they have a week or longer celebration of love that
+              also includes friends and family. Something that is specifically unique to Peru though, is
+              that they don't have roses, they use <a href="http://lacostanerarestaurant.com/blog/valentines-day-traditions-peru/">
+              orchids</a>, which are native to Peru, as symbols of love rather than red roses.
             </p> 
           </button>
         </button> 
       </div>
-      
-      <div class="event-card-container"> 
-        <button id="ghana-cover" class="event-card-cover-current" onclick="onclick_ghana_cover()">
-          <img class="event-card-cover-image" src="./images/ghana-cover.jpg" />
-          
-          <button id="ghana" class="event-card-current" >
-            <h2><a href="http://places.singleplatform.com/lardo/menu?ref=google"> Lunch @ Lardo </a> </h3>            
-            <h3> Location : <a href="https://www.google.com/maps/place/Lardo/@45.5170628,-122.6857791,14z/data=!4m8!1m2!2m1!1slardos+portland+oregon!3m4!1s0x0:0xbf8d79c2bad450cf!8m2!3d45.5121062!4d-122.652998"> Lardo (Hawthorne) </a></h3>
-            <h3> Time : 5:00pm </h3>
-            <hr>
-            <h2> Ghana </h2>
-            <p>
-              Ghana grows a ton of chocolate every year, so the government decided to make Valentine's
-              Day into "<a href="https://visitghana.com/event/chocolate-day/">Chocolate Day</a>" to promote
-              local businesses. Enjoy these chocolates while you get ready for dinner.
-            </p> 
-          </button>
-        </button> 
-      </div>
-      
-      
       
       
       
