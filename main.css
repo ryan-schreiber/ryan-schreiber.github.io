@@ -93,6 +93,19 @@ button:{
   text-align : left;
 }
 
+.event-card-container-locked {
+  position : relative;
+  height : 500px;
+  box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.75) ,-3px -3px 7px 0px rgba(60,60,60,0.5);
+  border-radius : 5px;
+  margin-top : 20px;
+  text-align : left;
+  background-image : url("./images/locked.png");
+  background-repeat : no-repeat;
+  background-size : 200px;
+  background-position : center;
+}
+
 .event-card-cover-image {
   height : 100%;
   width : 100%;

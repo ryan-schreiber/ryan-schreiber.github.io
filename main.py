@@ -3,12 +3,12 @@ import os, time, datetime
 
 
 flags = {
-  "southwest-china" : datetime.datetime(2020, 1, 26, 15, 47, 0),
-  "germany" : datetime.datetime(2020, 1, 26, 15, 48, 30),
-  "slovenia" : datetime.datetime(2020, 1, 26, 15, 49, 30),
-  "ghana" : datetime.datetime(2020, 1, 26, 15, 50, 30),
-  "peru" : datetime.datetime(2020, 1, 26, 15, 51, 30),
-  "china" : datetime.datetime(2020, 1, 26, 15, 52, 30),
+  "southwest-china" : datetime.datetime(2020, 1, 26, 21, 25, 0),
+  "germany" : datetime.datetime(2020, 1, 26, 21, 30, 30),
+  "slovenia" : datetime.datetime(2020, 1, 26, 21, 35, 30),
+  "ghana" : datetime.datetime(2020, 1, 26, 21, 40, 30),
+  "peru" : datetime.datetime(2020, 1, 26, 21, 45, 30),
+  "china" : datetime.datetime(2020, 1, 26, 21, 50, 30),
 }
 
 pages = {
