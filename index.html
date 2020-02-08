@@ -10,6 +10,17 @@
     function onclick_southwest_china_cover() {
       document.getElementById("southwest-china").style.display = "block";
       document.getElementById("southwest-china-cover").style.display = "none";
+      
+      document.getElementById("germany").style.display = "none";
+      document.getElementById("germany-cover").style.display = "block";
+    }
+    
+    function onclick_germany_cover() {
+      document.getElementById("germany").style.display = "block";
+      document.getElementById("germany-cover").style.display = "none";
+      
+      document.getElementById("southwest-china").style.display = "none";
+      document.getElementById("southwest-china-cover").style.display = "block";
     }
     
     </script>
@@ -23,15 +34,15 @@
     
     <div class="body-div">
     
-      <img class="map" alt="World Map" src="./images/world-map-1.jpg"> 
+      <img class="map" alt="World Map" src="./images/world-map-2.jpg"> 
       
       
       <div class="event-card-container"> 
-        <button id="southwest-china-cover" class="event-card-cover-current" onclick="onclick_southwest_china_cover()">
+        <button id="southwest-china-cover" class="event-card-cover-past" onclick="onclick_southwest_china_cover()">
           <div class="cover-container" style="background-image: url(./images/southwest-china-cover.jpg)">            
             <h1 class="event-card-cover-text" style="font-family: 'Pacifico', cursive;" > Southwest China <br> 10:00am </h1>
           </div>
-          <button id="southwest-china" class="event-card-current" >
+          <button id="southwest-china" class="event-card-past" >
             <h2><a href="https://thesavvysparrow.com/colored-rice-krispie-treats/"> Colored Rice Krispie (or Kix) Treats </a> </h2>            
             <h3> Location : <a href="https://www.google.com/maps/place/Columbia+View+Apartments/@45.6189191,-122.6227211,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a5f2107100e7:0xcc426cf3ab95568c!8m2!3d45.6189191!4d-122.6205324"> Cecilee's Apartment </a></h3>
             <h3> Time : 10:00am </h3>
@@ -48,7 +59,27 @@
         </button> 
       </div>
       
-      <div class="event-card-container-locked"> 
+      <div class="event-card-container"> 
+        <button id="germany-cover" class="event-card-cover-current" onclick="onclick_germany_cover()">
+          <div class="cover-container" style="background-image: url(./images/germany-cover.jpg)">            
+            <h1 class="event-card-cover-text" style="font-family: 'Caveat Brush', cursive;" > Germany <br> 11:30am </h1>
+          </div>
+
+
+          <button id="germany" class="event-card-current" >
+            <h2><a href="http://places.singleplatform.com/lardo/menu?ref=google"> Lunch @ Lardo </a> </h3>            
+            <h3> Location : <a href="https://www.google.com/maps/place/Lardo/@45.5170628,-122.6857791,14z/data=!4m8!1m2!2m1!1slardos+portland+oregon!3m4!1s0x0:0xbf8d79c2bad450cf!8m2!3d45.5121062!4d-122.652998"> Lardo (Hawthorne) </a></h3>
+            <h3> Time : 11:30am </h3>
+            <hr>
+            <h2> Germany </h2>
+            <p>
+              In Germany, they have some of the normal Valentine's traditions like cards and flowers,
+              but they also have a rather strange one. German couples make cookies with
+              "<a href="https://germanculture.com.ua/german-holidays/st-valentines-day-in-germany/">lucky pigs</a>"
+              as a symbol of luck and romance.
+            </p> 
+          </button>
+        </button> 
       </div>
       
       <div class="event-card-container-locked"> 
