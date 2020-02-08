@@ -3,12 +3,13 @@ import os, time, datetime
 
 
 flags = {
-  "southwest-china" : datetime.datetime(2020, 1, 26, 21, 25, 0),
-  "germany" : datetime.datetime(2020, 1, 26, 21, 30, 30),
-  "slovenia" : datetime.datetime(2020, 1, 26, 21, 35, 30),
-  "ghana" : datetime.datetime(2020, 1, 26, 21, 40, 30),
-  "peru" : datetime.datetime(2020, 1, 26, 21, 45, 30),
-  "china" : datetime.datetime(2020, 1, 26, 21, 50, 30),
+  "southwest-china" : datetime.datetime(2020, 2, 8, 8, 50, 0),
+  "germany" : datetime.datetime(2020, 2, 8, 10, 30, 0),
+  "slovenia" : datetime.datetime(2020, 2, 8, 12, 15, 0),
+  "ghana" : datetime.datetime(2020, 2, 8, 14, 45, 0),
+  "peru" : datetime.datetime(2020, 2, 8, 18, 0, 0),
+  "china" : datetime.datetime(2020, 2, 8, 20, 0, 0),
+  "done" : datetime.datetime(2020, 2, 8, 22, 0, 0),
 }
 
 pages = {
@@ -18,6 +19,7 @@ pages = {
   "ghana" : "4.html",
   "peru" : "5.html",
   "china" : "6.html",
+  "done" : "7.html",
 }
 
 while True:
