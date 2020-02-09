@@ -4,7 +4,8 @@
     <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/alphabets-and-numbers/98/22-512.png">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Dosis|Pacifico|Righteous|Slabo+27px|Yellowtail&display=swap" rel="stylesheet">
+
     <script>
     
     function onclick_southwest_china_cover() {
@@ -19,6 +20,8 @@
       document.getElementById("slovenia-cover").style.display = "block";
       document.getElementById("ghana").style.display = "none";
       document.getElementById("ghana-cover").style.display = "block";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("china-cover").style.display = "block";
     }
     
     function onclick_germany_cover() {
@@ -33,6 +36,8 @@
       document.getElementById("slovenia-cover").style.display = "block";
       document.getElementById("ghana").style.display = "none";
       document.getElementById("ghana-cover").style.display = "block";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("china-cover").style.display = "block";
     }
     
     function onclick_slovenia_cover() {
@@ -47,6 +52,8 @@
       document.getElementById("ghana-cover").style.display = "block";
       document.getElementById("peru").style.display = "none";
       document.getElementById("peru-cover").style.display = "block";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("china-cover").style.display = "block";
     }
     
     function onclick_ghana_cover() {
@@ -61,6 +68,8 @@
       document.getElementById("slovenia-cover").style.display = "block";
       document.getElementById("peru").style.display = "none";
       document.getElementById("peru-cover").style.display = "block";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("china-cover").style.display = "block";
     }
     
     function onclick_peru_cover() {
@@ -75,6 +84,24 @@
       document.getElementById("slovenia-cover").style.display = "block";
       document.getElementById("ghana").style.display = "none";
       document.getElementById("ghana-cover").style.display = "block";
+      document.getElementById("china").style.display = "none";
+      document.getElementById("china-cover").style.display = "block";
+    }
+    
+    function onclick_china_cover() {
+      document.getElementById("china").style.display = "block";
+      document.getElementById("china-cover").style.display = "none";
+      
+      document.getElementById("southwest-china").style.display = "none";
+      document.getElementById("southwest-china-cover").style.display = "block";
+      document.getElementById("germany").style.display = "none";
+      document.getElementById("germany-cover").style.display = "block";
+      document.getElementById("slovenia").style.display = "none";
+      document.getElementById("slovenia-cover").style.display = "block";
+      document.getElementById("ghana").style.display = "none";
+      document.getElementById("ghana-cover").style.display = "block";
+      document.getElementById("peru").style.display = "none";
+      document.getElementById("peru-cover").style.display = "block";
     }
     
     </script>
@@ -88,7 +115,7 @@
     
     <div class="body-div">
     
-      <img class="map" alt="World Map" src="./images/world-map-5.jpg"> 
+      <img class="map" alt="World Map" src="./images/world-map-6.jpg"> 
       
       
       <div class="event-card-container"> 
@@ -180,12 +207,12 @@
       </div>
       
       <div class="event-card-container"> 
-        <button id="peru-cover" class="event-card-cover-current" onclick="onclick_peru_cover()">
+        <button id="peru-cover" class="event-card-cover-past" onclick="onclick_peru_cover()">
           <div class="cover-container" style="background-image: url(./images/peru-cover.jpg)">            
             <h1 class="event-card-cover-text" style="font-family: 'Yellowtail', cursive;" > Peru <br> 7:00pm </h1>
           </div>
           
-          <button id="peru" class="event-card-current" >
+          <button id="peru" class="event-card-past" >
             <h2><a href="http://www.andinarestaurant.com/history/"> Dinner @ Andina </a> </h3>            
             <h3> Location : <a href="https://www.google.com/maps?q=andina+portland&rlz=1C1GCEU_enUS820US821&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiJ5tTM3ZbnAhVMVd8KHUA5BV0Q_AUoAXoECAwQAw"> Andina Peruvian Restraunt </a></h3>
             <h3> Time : 7:00pm </h3>
@@ -201,7 +228,27 @@
         </button> 
       </div>
       
-      <div class="event-card-container-locked"> 
+      <div class="event-card-container"> 
+        <button id="china-cover" class="event-card-cover-current" onclick="onclick_china_cover()">
+          <div class="cover-container" style="background-image: url(./images/china-cover.jpg)">            
+            <h1 class="event-card-cover-text" style="font-family: 'Caveat Brush', cursive;" > China <br> 9:30pm </h1>
+          </div>
+
+          <button id="china" class="event-card-current" >
+            <h2> Stargazing </h3>            
+            <h3> Location : <a href="https://www.google.com/maps/place/Vista+House/@45.5395754,-122.2465574,17z/data=!3m1!4b1!4m5!3m4!1s0x549595d331b13b2d:0x4c72a4fe3cf86bdb!8m2!3d45.5395754!4d-122.2443687"> Vista House </a></h3>
+            <h3> Time : 9:30pm (Weather Permitting) </h3>
+            <hr>
+            <h2> China </h2>
+            <p>
+              In China, there are multiple days where love is celebrated, but one of the more traditional ones
+              is the Qixi Festival on the 7th day of the 7th month of the Lunar calendar. The 
+              <a href="https://www.travelchinaguide.com/essential/holidays/qixi.htm"> Qixi Festival </a> is
+              celebrated "in the rural regions, people usually see the meeting of Niu Lang and Zhi Nu as two 
+              stars in the sky. At the same time, the old people tell the young about this old love legend."
+            </p> 
+          </button>
+        </button> 
       </div>
       
     </div>
